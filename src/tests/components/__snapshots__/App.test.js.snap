@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="weather-app"
+  >
+    <header>
+      <h1>
+        Its always cloudy in .
+      </h1>
+    </header>
+    <br />
+    <h2
+      class="location-details"
+    >
+      , 
+    </h2>
+    <br />
+    <div
+      class="search-form"
+    >
+      <input
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Search
+      </button>
+    </div>
+    <div
+      class="forecast-summaries"
+      div-testid="forecast-summaries"
+    />
+  </div>
+</DocumentFragment>
+`;
